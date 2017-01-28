@@ -12,12 +12,5 @@
   </li>
 </ul>
 
-<div *ngIf="selectedClient">
-  <h2>{{selectedClient.name}} details!</h2>
-  <div><label>id: </label>{{selectedClient.id}}</div>
-  <div>
-    <label>name: </label>
-    <input [(ngModel)]="selectedClient.name" placeholder="name"/>
-  </div>
-</div>
+<my-client-detail [client]="selectedClient"></my-client-detail>
  

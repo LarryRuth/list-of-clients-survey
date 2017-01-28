@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
+import { Client } from './client';
 
-export class Client {
-  id: number;
-  name: string;
-}
+
 
 const CLIENTS: Client[] = [
     {id:2, name: 'Bobs Burger Barn'},
